@@ -1,7 +1,7 @@
 # Advanced-Computer-Systems-Project-2
 
 Installs for this project:<br />
-clang compiler (brew install gcc47)
+- clang compiler (brew install gcc47)
 
 Notes:
 - SIMD is not compatible with Mac M1s - used ARM NEON (Documentation: https://developer.arm.com/documentation/den0018/latest/)
