@@ -1,12 +1,19 @@
 # Advanced-Computer-Systems-Project-2
 
-Installs for this project:
+Installs for this project:<br />
 clang compiler (brew install gcc47)
 
 Notes:
 - SIMD is not compatible with Mac M1s - used ARM NEON (Documentation: https://developer.arm.com/documentation/den0018/latest/)
 - I was unable to get a matrix of size 10,000 x 10,000 to run on my computer with neon or cache optimization, so I resized the matrix to 5000 x 5000
 
+How to use:
+- Download main.cpp
+- to change thread number, change variable 'num_threads' in main
+- to change matrix size, change variable 'N' in main
+- to change sparsity, change 'sparsity' in main
+<br />
+<br />
 PseudoCode:
 
 main()
